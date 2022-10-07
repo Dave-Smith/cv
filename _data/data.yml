@@ -16,7 +16,7 @@ sidebar:
     phone: 715 252 6033
     timezone: 
     citizenship:
-    website: dave-smith@github.io #do not add http://
+    website: dave-smith.github.io #do not add http://
     linkedin: 
     xing: 
     github: dave-smith
@@ -65,7 +65,7 @@ education:
     title: Education
     info:
       - degree: BS in Web & Digital Media Development
-        university: Iniversity of Wisconsin - Stevens Point
+        university: University of Wisconsin - Stevens Point
         time: 2005
 
 experiences:
@@ -75,7 +75,7 @@ experiences:
         time: 2008 - Present
         company: Robert W. Baird, Milwaukee, WI
         details: |
-          I am a software at a Milwaukee, WI based financial services firm.  I have spent my time at Baird writing software for the 
+          I am a software developer at a Milwaukee, WI based financial services firm.  I have spent my time at Baird writing software for the 
           Equities Trading and Fixed Income businesses.
             - Wrote client facing and back end software using C#, Javascript, HTML, and SQL to support the Equity Trading and Fixed Income businesses at Baird
             -`Led the migration to Azure DevOps from GoCD for the company, including training all development teams
@@ -163,7 +163,10 @@ skills:
       - name: SQL
         level:
 
-      - name: CI/CD
+      - name: Azure DevOps
+        level:
+
+      - name: Azure
         level:
 
 footer: >
