@@ -16,7 +16,7 @@ sidebar:
     phone: 715 252 6033
     timezone: 
     citizenship:
-    website: dave-smith.github.io #do not add http://
+    website: dave-smith.github.io/cv #do not add http://
     linkedin: 
     xing: 
     github: dave-smith
@@ -77,7 +77,7 @@ experiences:
         details: |
           Software developer at a Milwaukee, WI based financial services firm.  I have spent my time at Baird writing software for the 
           Equities Trading and Fixed Income businesses.
-            - Collaborated with product owner on feasibility of new features
+            - Collaborated with product owner during idea generation to advise on technical feasibility of new features
             - Wrote client facing and back end software using C#, Javascript, HTML, and SQL to support the Equity Trading and Fixed Income businesses at Baird
             - Led the migration to Azure DevOps from GoCD for the company, also acted as the subject matter expert on CI/CD practices
             - Participated in Agile/Lean team activities such as daily standup, planning, retrospectives
@@ -154,16 +154,19 @@ skills:
       - name: Javascript
         level: 
 
+      - name: Typescript
+        level:
+
       - name: Angular
         level: 
 
-      - name: HTML5 & CSS
+      - name: HTML & CSS
         level: 
 
       - name: SQL
         level:
 
-      - name: Azure DevOps
+      - name: CI/CD (Azure DevOps)
         level:
 
       - name: Azure Integration Platform
