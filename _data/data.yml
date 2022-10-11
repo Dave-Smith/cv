@@ -27,7 +27,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: Dave-Smith
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://raw.githubusercontent.com/Dave-Smith/cv/main/cv.pdf
 
     languages:
       title: Languages
@@ -57,7 +57,7 @@ career-profile:
     title: Career Profile
     summary: |
       Throughout my career, my goal has always been to produce high quality 
-      software.  I have achieved this my focusing on collaboration with team 
+      software.  I have achieved this by focusing on collaboration with team 
       members and relying on automation.  I enjoy working with a team, and am 
       capable of running solo when necessary.  I am excited at the prospect of 
       working at a product driven company.
@@ -75,13 +75,14 @@ experiences:
         time: 2008 - Present
         company: Robert W. Baird, Milwaukee, WI
         details: |
-          Software developer at a Milwaukee, WI based financial services firm.  I have spent my time at Baird writing software for the 
-          Equities Trading and Fixed Income businesses.
+          Software developer at a Milwaukee, WI based financial services firm.  My role was a hybrid of developings new 
+          projects while also supporting existing systems for the Equities Trading and Fixed Income businesses.  Building 
+          a relationship with users from the business was crucial for success.  
             - Collaborated with product owner during idea generation to advise on technical feasibility of new features
             - Wrote client facing and back end software using C#, Javascript, HTML, and SQL to support the Equity Trading and Fixed Income businesses at Baird
             - Led the migration to Azure DevOps from GoCD for the company, also acted as the subject matter expert on CI/CD practices
-            - Participated in Agile/Lean team activities such as daily standup, planning, retrospectives
             - Led software lifecycle initiatives to bring frameworks and third party dependencies up to date
+            - Participated in Agile/Lean team activities such as daily standup, planning, retrospectives
             - Mentored and trained new team members and interns
             - Facilitated weekly code kata for team members
 
