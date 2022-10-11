@@ -10,6 +10,15 @@
     {{ skills.title }}
   </h2>
 
+  {% if skills.show == 'pills' %}
+  <div class="skills">
+    {% for skill in skills.toolset %}
+    <div class="item">{{ skill.name}}</div>
+    {% endfor %}
+  </div>  
+  {% endif %}
+
+  {% if skills.show == 'levels' %}
   <div class="skillset">
 
     {% for skill in skills.toolset %}
@@ -26,6 +35,7 @@
     {% endfor %}
 
   </div>
+  {% endif %}
 
 </section><!--//skills-section-->
 {% endif %}

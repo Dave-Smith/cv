@@ -146,7 +146,7 @@ publications:
 
 skills:
     title: Skills
-
+    show: pills #pills, levels
     toolset:
       - name: C# & dotnet
         level: 
@@ -166,7 +166,7 @@ skills:
       - name: Azure DevOps
         level:
 
-      - name: Azure
+      - name: Azure Integration Platform
         level:
 
 footer: >
