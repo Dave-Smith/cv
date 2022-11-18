@@ -23,7 +23,7 @@ sidebar:
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter:
+    twitter: SmithCommaDave
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars: Dave-Smith
     goodreads: # Number-Username, e.g. 123456-alandoe
@@ -53,20 +53,21 @@ sidebar:
         - item: F#
           link:
 
+        - item: Cloud development
+          link:      
+
 career-profile:
     title: Career Profile
     summary: |
-      Throughout my career, my goal has always been to produce high quality 
-      software.  I have achieved this by focusing on collaboration with team 
-      members and relying on automation.  I enjoy working with a team, and am 
-      capable of running solo when necessary.  I am excited at the prospect of 
-      working at a product driven company.
+      My name is Dave Smith and I've been a software developer for 17+ years. Over those years I've helped different organizations refine requirements, design and code solutions to enable or support the business. 
+      My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution. I believe we do our best work when work when we work together.
+      I am excited at the prospect of working at a product driven company.
 education:
     title: Education
     info:
       - degree: BS in Web & Digital Media Development
         university: University of Wisconsin - Stevens Point
-        time: 2005
+        time: 2000 - 2005
 
 experiences:
     title: Experiences
@@ -75,26 +76,26 @@ experiences:
         time: 2008 - Present
         company: Robert W. Baird, Milwaukee, WI
         details: |
-          Software developer at a Milwaukee, WI based financial services firm.  My role was a hybrid of developings new 
-          projects while also supporting existing systems for the Equities Trading and Fixed Income businesses.  Building 
-          a relationship with users from the business was crucial for success.  
+          Baird is a Milwaukee, WI based financial services firm. 
+          As a senior software developer Software developer my role was a hybrid of developings new 
+          projects while also supporting existing systems for the Equities Trading business.  Building a relationship with users from the business was crucial for success.  
+
+          My proudest acheviement was helping the development organization shift to using CI/CD practices. This enabled all teams to ship features more easily and promoted a culture to ship early and often.  
             - Collaborated with product owner during idea generation to advise on technical feasibility of new features
-            - Wrote client facing and back end software using C#, Javascript, HTML, and SQL to support the Equity Trading and Fixed Income businesses at Baird
-            - Led the migration to Azure DevOps from GoCD for the company, also acted as the subject matter expert on CI/CD practices
-            - Led software lifecycle initiatives to bring frameworks and third party dependencies up to date
-            - Participated in Agile/Lean team activities such as daily standup, planning, retrospectives
-            - Mentored and trained new team members and interns
+            - Shipped features in both client facing and back end software using C#, Javascript, and SQL
+            - Led the migration to Azure DevOps from GoCD, also acted as the subject matter expert on CI/CD practices
+            - Led the organization from an on-prem delivery model to a cloud-first hybrid model in Azure
+            - Mentored and trained new team members and interns teaching fundamental development skills through pair programming
             - Facilitated weekly code kata for team members
 
       - role: Software Engineer
         time: 2007 - 2008
         company:  Eagle Technology, Mequon, WI
         details: |
-          Software engineer at a product company developing facilities maintenance and asset management software
-            - Collaborated with team members to add new features
+          A software product company focused on offering asset mangement and work tracking software in the facilities and manufacturing sector.
+          As a software engineer my team was tasked with rewriting the legacy desktop software with a web based version using ASP.NET. 
+            - Shipped new features working with team members
             - Migrated customer databases from previous version to current
-            - Wrote unit tests and integration tests for existing code and new code
-            - Developed internal tools to increase automation in the development and build processes
             - Participated in team code reviews to promote excellent development practices
 projects:
     title: Projects
@@ -158,19 +159,28 @@ skills:
       - name: Typescript
         level:
 
+      - name: CI/CD (Azure DevOps)
+        level:
+
       - name: Angular
         level: 
 
       - name: HTML & CSS
         level: 
 
+      - name: REST APIs
+        level: 
+
       - name: SQL
         level:
-
-      - name: CI/CD (Azure DevOps)
+      
+      - name: Database Perf Tuning
         level:
 
-      - name: Azure Integration Platform
+      - name: Azure 
+        level:
+
+      - name: Problem solving
         level:
 
 footer: >
