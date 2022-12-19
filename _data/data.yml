@@ -78,12 +78,13 @@ experiences:
         company: Robert W. Baird, Milwaukee, WI
         details: |
           Baird is a Milwaukee, WI based financial services firm. 
-          As a senior software developer Software developer my role was a hybrid of developings new 
+          As a senior software developer Software developer my role was a hybrid of developing new 
           projects while also supporting existing systems for the Equities Trading business.  
 
           My proudest acheviement was helping the development organization shift to using CI/CD practices. This enabled all teams to ship features easily and promoted a culture to ship early and often.  
             - Worked with product owner to turn feature requests into technical requirements
-            - Shipped features in both client facing and back end software using C#, Typescript, and SQL
+            - Shipped features in a client facing Angular app and back end APIs using C#, Typescript, and SQL
+            - Implemented batch and real-time data integrations using C# and SQL
             - Led the migration to Azure DevOps from GoCD, also acted as the subject matter expert on CI/CD practices
             - Led the organization from an on-prem delivery model to a cloud-first hybrid model in Azure
             - Mentored and trained new team members and interns teaching fundamental development skills through pair programming
