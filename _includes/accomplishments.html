@@ -1,0 +1,25 @@
+{% assign accomplishments = site.data.data.sidebar.accomplishments %}
+{% if accomplishments %}
+<div class="accomplishments-container container-block">
+
+  <h2 class="container-block-title">
+    {{ accomplishments.title }}
+  </h2>
+
+  <ul class="list-unstyled accomplishments-list">
+    {% for acc in accomplishments.info %}
+      <li>
+      <div>
+        <div class="accomplishment-title">
+          <span><i class="{{acc.icon}}"></i></span>
+          <span>{{ acc.title }}</span>
+          </div>
+        <div>{{ acc.item }}</div>
+      </div>
+      </li>
+
+    {% endfor %}
+  </ul>
+
+</div><!--//accomplishments-->
+{% endif %}

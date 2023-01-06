@@ -4,7 +4,7 @@
 
 sidebar:
     about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Dave Smith
@@ -43,26 +43,35 @@ sidebar:
           level: Professional
 
     interests:
-      title: Interests
+      title: You Might Find Me...
       info:
-        - item: Running
-          link:
+        - item: Reading, writing, talking about code
+        - item: Trying something new in CodeWars 
+        - item: On video with teammates
+        - item: Browsing the F12 tools 🤓
+        - item: Automating things
+        - item: Shaving yaks, sometimes
+        - item: Leveling up in Vim, Go and Kotlin ⌨️
+        - item: Running 🏃
+        - item: Woodworking 🪚
+          
+    accomplishments:
+      title: Accomplishments
+      info:
+        - title: CI/CD Adoption 
+          item: Led development teams to using CI/CD practices. This promoted a culture of shipping early and often with confidence  
+          icon: fa fa-trophy
 
-        - item: Woodworking
-          link:
-
-        - item: F#, Go, Kotlin
-          link:
-
-        - item: Cloud development
-          link:      
+        - title: Custom CRM 
+          item: Developed a custom CRM system to enable the business to capture customer interactions and drive business decisions
+          icon: fa fa-star
 
 career-profile:
     title: Career Profile
     summary: |
       My name is Dave Smith and I've been a software developer for 17+ years. Over those years I've helped different organizations refine requirements, design and code solutions to enable or support the business. 
-      My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution. I believe we do our best work when work when we work together.
-      I am excited at the prospect of working at a product driven company.
+      
+      My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution.
 education:
     title: Education
     info:
@@ -71,32 +80,37 @@ education:
         time: 2000 - 2005
 
 experiences:
-    title: Experiences
+    title: Experience
     info:
       - role: Senior Software Developer
-        time: 2008 - Present
+        time: 2011 - Present
         company: Robert W. Baird, Milwaukee, WI
-        details: |
+        about: |
           Baird is a Milwaukee, WI based financial services firm. 
           As a senior software developer Software developer my role was a hybrid of developing new 
           projects while also supporting existing systems for the Equities Trading business.  
-
-          My proudest acheviement was helping the development organization shift to using CI/CD practices. This enabled all teams to ship features easily and promoted a culture to ship early and often.  
-            - Worked with product owner to turn feature requests into technical requirements
-            - Shipped features in a client facing Angular app and back end APIs using C#, Typescript, and SQL
-            - Implemented batch and real-time data integrations using C# and SQL
-            - Led the migration to Azure DevOps from GoCD, also acted as the subject matter expert on CI/CD practices
-            - Led the organization from an on-prem delivery model to a cloud-first hybrid model in Azure
+        details: |
+            - Worked with small team to build a custom CRM platform with **Angular** in the front and a REST API using **ASP.NET** in the back
+            - Developed a sales and commission data analytics system with **C#**, **SQL**, and **SSAS**
+            - Implemented batch and real-time data integrations to external partners using **C#** and **SQL**
+            - Designed relational database schemas with complex entity relationships
+            - Worked with product owner to turn feature requests into technical requirements  
+            - Demonstrated new features, UI proposals, and existing features to solve new problems to the product owner and business partners        
+            - Led the migration to Azure DevOps from GoCD, also acted as the subject matter expert on **CI/CD** practices
             - Mentored and trained new team members and interns teaching fundamental development skills through pair programming
-            - Facilitated weekly code kata for team members
             - Presented new technology to the organization using blogs and formal presentations
+
+      - role: Software Developer
+        time: 2008 - 2011
+        company: Robert W. Baird, Milwaukee, WI
 
       - role: Software Engineer
         time: 2007 - 2008
         company:  Eagle Technology, Mequon, WI
+        about: |
+          Eagle is a software product company focused on offering asset mangement and work tracking software in the facilities and manufacturing sector.
         details: |
-          A software product company focused on offering asset mangement and work tracking software in the facilities and manufacturing sector.
-          As a software engineer my team was tasked with rewriting the legacy desktop software with a web based version using ASP.NET. 
+            - Rewrote and modernized legacy desktop software to **ASP.NET** 
             - Shipped new features working with team members
             - Migrated customer databases from previous version to current
             - Participated in team code reviews to promote excellent development practices
@@ -162,7 +176,7 @@ skills:
       - name: Typescript
         level:
 
-      - name: CI/CD (Azure DevOps)
+      - name: CI/CD 
         level:
 
       - name: Angular
@@ -184,9 +198,6 @@ skills:
         level:
 
       - name: Problem solving
-        level:
-
-      - name: Distributed Systems
         level:
 
 footer: >
