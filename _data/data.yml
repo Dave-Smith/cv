@@ -48,10 +48,10 @@ sidebar:
         - item: Reading, writing, talking about code
         - item: Trying something new in CodeWars 
         - item: On video with teammates
-        - item: Browsing the F12 tools 🤓
-        - item: Automating things
-        - item: Shaving yaks, sometimes
         - item: Leveling up in Vim, Go and Kotlin ⌨️
+        - item: Automating things
+        - item: Browsing the F12 tools 🤓
+        - item: Shaving yaks, sometimes
         - item: Running 🏃
         - item: Woodworking 🪚
           
@@ -69,9 +69,11 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
+      Hi, I'm Dave Smith and I have 17 years of experience building software while providing technical leadership and mentoring within the team and across the organization. I am not shy about learning new tech stacks and genuinely enjoy it.
+    other: |
       My name is Dave Smith and I've been a software developer for 17+ years. Over those years I've helped different organizations refine requirements, design and code solutions to enable or support the business. 
-      
-      My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution.
+
+      I believe well crafted software should be easy to read and easy to change.  well crafted My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution.
 education:
     title: Education
     info:
@@ -97,7 +99,7 @@ experiences:
             - Worked with product owner to turn feature requests into technical requirements  
             - Demonstrated new features, UI proposals, and existing features to solve new problems to the product owner and business partners        
             - Led the migration to Azure DevOps from GoCD, also acted as the subject matter expert on **CI/CD** practices
-            - Mentored and trained new team members and interns teaching fundamental development skills through pair programming
+            - Mentored new team members and interns; focusing on fundamental programming skills through pair programming
             - Presented new technology to the organization using blogs and formal presentations
 
       - role: Software Developer
@@ -170,10 +172,13 @@ skills:
       - name: C# & dotnet
         level: 
 
-      - name: Javascript
+      - name: JavaScript
         level: 
 
-      - name: Typescript
+      - name: TypeScript
+        level:
+
+      - name: Go
         level:
 
       - name: CI/CD 
