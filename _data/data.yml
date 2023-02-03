@@ -9,7 +9,7 @@ sidebar:
     # Profile information
     name: Dave Smith
     tagline: Software Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: user.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
     home: Milwaukee, WI
 
     # Sidebar links
@@ -20,7 +20,7 @@ sidebar:
     website: dave-smith.github.io/cv #do not add http://
     linkedin: 
     xing: 
-    github: dave-smith
+    github: https://github.com/dave-smith
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
@@ -48,7 +48,7 @@ sidebar:
         - item: Reading, writing, talking about code
         - item: Trying something new in CodeWars 
         - item: On video with teammates
-        - item: Leveling up in Vim, Go and Kotlin ⌨️
+        - item: Leveling up in Vim, Go and F# ⌨️
         - item: Automating things
         - item: Browsing the F12 tools 🤓
         - item: Shaving yaks, sometimes
@@ -69,8 +69,9 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Hi, I'm Dave Smith and I have 17 years of experience building software while providing technical leadership and mentoring within the team and across the organization. I am not shy about learning new tech stacks and genuinely enjoy it.
+      Senior Software Developer with 10+ years developering web applications and backend systems.  Skilled at write clear code that is easy to ready and enhance.  Experienced working with in an Agile team both in the office and remotely.
     other: |
+      Hi, I'm Dave Smith and I have 17 years of experience building software while providing technical leadership and mentoring within the team and across the organization. I am not shy about learning new tech stacks and genuinely enjoy it.
       My name is Dave Smith and I've been a software developer for 17+ years. Over those years I've helped different organizations refine requirements, design and code solutions to enable or support the business. 
 
       I believe well crafted software should be easy to read and easy to change.  well crafted My goal has been to produce high quality software where the code is easy to read, easy to change and easy to deploy. I love working in a team environment where we can share ideas and collectively work on a solution.
